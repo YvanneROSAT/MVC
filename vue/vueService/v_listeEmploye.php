@@ -1,5 +1,4 @@
 <div class="row">
-
 	<div class="container">
 		<div class="row">
 			<div class="col">
@@ -25,7 +24,7 @@
 						</div>
 					</div>
 					<br>
-					
+
 					<!-- end titre -->
 
 					<!-- Début de la boucle foreach -->

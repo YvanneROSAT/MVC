@@ -21,6 +21,11 @@ class DbService{
 		$sql = "INSERT INTO service (id, nom) VALUES (NULL, '$nom')";
 		connectPdo::getObjPdo()->exec($sql);
 	}
+	public static function updateService($id, $nom)
+    {
+		$sql = "UPDATE service SET nom='$nom' WHERE id='$id'";
+		connectPdo::getObjPdo()->exec($sql);
+	}
 	
 }
 
